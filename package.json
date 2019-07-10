@@ -4,8 +4,11 @@
   "private": true,
   "homepage": "https://realmichaelangelo.github.io/m-rolodex",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
     "react-scripts": "3.0.1"
   },
   "scripts": {
@@ -13,7 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm build",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
@@ -30,8 +33,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^2.0.1"
   }
+
 }
