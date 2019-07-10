@@ -1,8 +1,8 @@
 {
-  "name": "monsters-rolodex",
+  "name": "m-rolodex",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/realmichaelangelo/monsters-rolodex",
+  "homepage": "https://realmichaelangelo.github.io/m-rolodex",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
